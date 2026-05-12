@@ -236,26 +236,31 @@ body{
     margin-bottom: 50px;
 }
 .locais-lista{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
     max-width: 700px;
     margin: 0 auto;
     text-align: left;
 }
-.local{
-    background: #1a1a1a;
-    padding: 25px 30px;
-    border-radius: 10px;
-    border-left: 4px solid #ff6a00;
+.locais-lista ul{
+    list-style: none;
 }
-.local h3{
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 8px;
+.locais-lista li{
+    margin: 25px 0;
+    padding-left: 15px;
+    position: relative;
+}
+.locais-lista li::before{
+    content: "•";
+    position: absolute;
+    left: 0;
     color: #ff6a00;
+    font-size: 22px;
 }
-.local p{
+.locais-lista li strong{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+.locais-lista li p{
     font-size: 15px;
     color: #b3b3b3;
     line-height: 1.5;
@@ -303,3 +308,36 @@ body{
     font-size: 16px;
 }
 
+/* ========= CELULARES ========= */
+@media (max-width: 768px) {
+    .header{ padding: 20px; }
+    .logo{ font-size: 22px; }
+    .menu-toggle{ display: flex; }
+    .menu{ width: 75%; padding: 100px 30px; }
+    .menu a{ font-size: 18px; }
+    .overlay{ padding: 20px; }
+    .hero-conteudo img{ width: 200px; }
+    .hero-conteudo h2{ font-size: 32px; }
+    .hero-conteudo p{ font-size: 18px; }
+    .hero-setas{ gap: 80px; margin-top: 30px; }
+    .seta{ width: 45px; }
+    .hero-decoracao img{ width: 90px; }
+    .cardapio{ padding: 60px 20px; }
+    .cardapio h2{ font-size: 26px; }
+    .cardapio-subtitulo{ font-size: 18px; }
+    .cardapio-conteudo{ flex-direction: column; align-items: center; gap: 30px; }
+    .cardapio-img img{ width: 250px; }
+    .cardapio-lista{ max-width: 100%; }
+    .cardapio-lista li strong{ font-size: 18px; }
+    .cardapio-lista li p{ font-size: 14px; }
+    .localizacoes{ padding: 50px 20px; }
+    .localizacoes h2{ font-size: 26px; }
+    .localizacoes-subtitulo{ font-size: 17px; }
+    .locais-lista li strong{ font-size: 16px; }
+    .locais-lista li p{ font-size: 14px; }
+    .contato{ padding: 50px 20px; }
+    .contato h2{ font-size: 26px; }
+    .contato-info p{ font-size: 16px; }
+    .footer{ padding: 20px; }
+    .footer p{ font-size: 14px; }
+}
