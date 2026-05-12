@@ -1,221 +1,126 @@
-<!DOCTYPE html> 
-<html lang="pt-br"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Pizza Fogo de Brasa</title> 
-    <link rel="stylesheet" href="./style.css"> 
-</head> 
-<body> 
-
-    <!-- MENU --> 
-    <header class="header"> 
-            <h1 class="logo">Pizza Fogo de Brasa</h1> 
-        <div class="menu-toggle" id="menu-toggle"> 
-            <span></span> 
-            <span></span> 
-            <span></span> 
-        </div>  
-        <nav class="menu" id="menu">  
-            <a href="#hero">Home</a> 
-            <a href="#cardapio">Cardápio</a> 
-            <a href="#localizacoes">Localizações</a> 
-            <a href="#contato">Contato</a> 
-        </nav> 
-    </header> 
-    <div class="overlay-menu" id="overlay"></div> 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Fogo de Brasa</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
     
-    <!-- HERO --> 
-    <section class="hero" id="hero"> 
-        <div class="overlay"> 
-            <div class="hero-conteudo"> 
-                <img src="https://imgs.search.brave.com/0q-nHLINy3z4H_42vPLtKc8Cu0D9JmV49KHflZ9G1Nk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjUv/MjIxLzM1Ni9zbWFs/bC9waXp6YS1jYXJ0/b29uLWFpLWdlbmVy/YXRlLXBuZy5wbmc" alt="Pizza"> 
-                <h2>PIZZA</h2> 
-                <p>Do Fogo do Forno à Chama do Seu Paladar.</p> 
-            </div> 
-
-            <div class="hero-setas"> 
-
-                <img src="https://imgs.search.brave.com/_NzW2MLDTvSmmBc0kYxk0R3S2ssSIHaW88I_hHX0AR8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb2dvLXNldGEt/Y2hhbWEtY2Fsb3It/ZnVuZG8tcHJldG9f/MTY3ODYyLTc2NzMu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw" alt="seta esquerda" class="seta seta-esquerda"> 
-
-                <img src="https://imgs.search.brave.com/_NzW2MLDTvSmmBc0kYxk0R3S2ssSIHaW88I_hHX0AR8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb2dvLXNldGEt/Y2hhbWEtY2Fsb3It/ZnVuZG8tcHJldG9f/MTY3ODYyLTc2NzMu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw" alt="seta direita" class="seta seta-direita"> 
-
-            </div> 
-
-            <div class="hero-decoracao"> 
-
-                <img src="https://imgs.search.brave.com/tDQbKTk5ZAPyq18icZdwwgw2H10-JkNAqNaJZnxDF-A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vb2xlZ2dhbmtv/L29sZWdnYW5rbzIx/MDUvb2xlZ2dhbmtv/MjEwNTAwMTk3LzE2/OTI2NzU0Mi1iYW5k/ZWlyYS1kZS1pdCVD/MyVBMWxpYS1uby1m/dW5kby1kby1mb2dv/LWVtYmxlbWEtZG8t/cGElQzMlQURzLWls/dXN0cmElQzMlQTcl/QzMlQTNvLXZldG9y/aWFsLmpwZz92ZXI9/Ng" alt="decoracao"> 
-
-            </div> 
-
+    <header class="header">
+            <h1 class="logo">Pizza Fogo de Brasa</h1>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
         </div> 
-
-    </section> 
-
-  
-
-    <!-- CARDÁPIO --> 
-
-    <section class="cardapio" id="cardapio"> 
-
-        <h2>Pizzas Salgadas</h2> 
-
-        <p class="cardapio-subtitulo">Como Clássicas</p> 
-
-        <div class="cardapio-conteudo"> 
-
-            <div class="cardapio-img"> 
-
-                <img src="https://imgs.search.brave.com/gKIlAuverqvZ53z5I2I2WREfh0Cdkqwu1qS19xKbJhM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ4/MjQ3MTg1NC9wdC9m/b3RvL3dvb2QtZmly/ZS1waXp6YS1vdmVu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz0xLXVaYzd0bkZ6/eDVtWjFaNzZnVVh5/QmZka0h6WXNIU1BB/allYUGs5dmswPQ" alt="Pizza Salgada"> 
-
-            </div> 
-
-            <div class="cardapio-lista"> 
-
-                <ul> 
-
-                    <li> 
-
-                        <strong>Margherita</strong> 
-
-                        <p>Molho de tomates frescos, mussarela de bufala, manjerição e azeite extra virgem</p> 
-
-                    </li> 
-
-                    <li> 
-
-                        <strong>Calabresa Artesanal</strong> 
-
-                        <p>Calabresa defumada, cebola roxa caramelizada e orégano fresco</p> 
-
-                    </li> 
-
-                    <li> 
-
-                        <strong>Quatro Queijos</strong> 
-
-                        <p>Mussarela, provolone, parmesão e gorgonzola</p> 
-
-                    </li> 
-
-                    <li> 
-
-                        <strong>Sertaneja</strong> 
-
-                        <p>Carne seca desfiada, queijo coalho e pimenta biquinho</p> 
-
-                    </li> 
-
-                    <li> 
-
-                        <strong>Portuguesa Premium</strong> 
-
-                        <p>Presunto, ovos, cebola, azeitona, ervilha e mussarela</p> 
-
-                    </li> 
-
-                </ul> 
-
-            </div> 
-
-        </div> 
-
-        <div class="cardapio-decoracao"> 
-
-            <img src="https://imgs.search.brave.com/pQjmzopQQsI2mfAYEYxNpe47j4PsCbE9ESpe5Iq0MOQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vNDI4NTg4/NS82ODE4L2kvNDUw/L2RlcG9zaXRwaG90/b3NfNjgxODE3Mzkt/c3RvY2stcGhvdG8t/ZmlyZS1oZWFydC5q/cGc" alt="fogo"> 
-
-             
-
-             
-
-        </div> 
-
-    </section> 
-
-  
-
-     
-
-    <section class="localizacoes" id="localizacoes"> 
-
-        <h2>Pontos Disponíveis</h2> 
-
-        <p class="localizacoes-subtitulo">Localizações (Ruas)</p> 
-
-        <div class="locais-lista"> 
-
-            <div class="local"> 
-
-                <h3>1. Freguesia do Ó (Zona Norte)</h3> 
-
-                <p>Endereço: Rua das Labaredas, 150</p> 
-
-                <p>Ambiente: Um bairro tradicional, ideal para um ponto comercial movimentado e entregas rápidas.</p> 
-
-            </div> 
-
-            <div class="local"> 
-
-                <h3>2. Vila Madalena (Zona Oeste)</h3> 
-
-                <p>Endereço: Rua da Brasa, 320</p> 
-
-                <p>Ambiente: Bairro boêmio, com público jovem e noturno.</p> 
-
-            </div> 
-
-            <div class="local"> 
-
-                <h3>3. Liberdade (Zona Sul)</h3> 
-
-                <p>Endereço: Rua do Forno, 78</p> 
-
-                <p>Ambiente: Região central com grande fluxo de pedestres.</p> 
-
-            </div> 
-
-            <div class="local"> 
-
-                <h3>4. Mooca (Zona Leste)</h3> 
-
-                <p>Endereço: Avenida da Pizza, 450</p> 
-
-                <p>Ambiente: Bairro italiano, perfeito para uma pizzaria autêntica.</p> 
-
-            </div> 
-
-        </div> 
-
-    </section> 
-
-  
-
-    <!-- CONTATO --> 
-
-    <section class="contato" id="contato"> 
-
-        <h2>Contato</h2> 
-
-        <div class="contato-info"> 
-
-            <p>E-mail: contato@pizzariafogodebrasa.com.br</p> 
-
-            <p>WhatsApp: (11) 99999-8888</p> 
-
-        </div> 
-
-    </section> 
-
-     
-
-    <footer class="footer"> 
-
-        <p>&copy; Pizza Fogo de Brasa</p> 
-
-    </footer> 
-
-    <script src="script.js"></script> 
-
-</body> 
-
-</html> 
+        <nav class="menu" id="menu"> 
+            <a href="#hero">Home</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#localizacoes">Localizações</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <div class="overlay-menu" id="overlay"></div>
+
+    
+    <section class="hero" id="hero">
+        <div class="overlay">
+            <div class="hero-conteudo">
+                <img src="https://imgs.search.brave.com/0q-nHLINy3z4H_42vPLtKc8Cu0D9JmV49KHflZ9G1Nk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMjUv/MjIxLzM1Ni9zbWFs/bC9waXp6YS1jYXJ0/b29uLWFpLWdlbmVy/YXRlLXBuZy5wbmc" alt="Pizza">
+                <h2>PIZZA</h2>
+                <p>Do Fogo do Forno à Chama do Seu Paladar.</p>
+            </div>
+            <div class="hero-setas">
+                <img src="https://imgs.search.brave.com/_NzW2MLDTvSmmBc0kYxk0R3S2ssSIHaW88I_hHX0AR8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb2dvLXNldGEt/Y2hhbWEtY2Fsb3It/ZnVuZG8tcHJldG9f/MTY3ODYyLTc2NzMu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw" alt="seta esquerda" class="seta seta-esquerda">
+                <img src="https://imgs.search.brave.com/_NzW2MLDTvSmmBc0kYxk0R3S2ssSIHaW88I_hHX0AR8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb2dvLXNldGEt/Y2hhbWEtY2Fsb3It/ZnVuZG8tcHJldG9f/MTY3ODYyLTc2NzMu/anBnP3NlbXQ9YWlz/X2h5YnJpZCZ3PTc0/MCZxPTgw" alt="seta direita" class="seta seta-direita">
+            </div>
+            <div class="hero-decoracao">
+                <img src="https://imgs.search.brave.com/tDQbKTk5ZAPyq18icZdwwgw2H10-JkNAqNaJZnxDF-A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cy4x/MjNyZi5jb20vNDUw/d20vb2xlZ2dhbmtv/L29sZWdnYW5rbzIx/MDUvb2xlZ2dhbmtv/MjEwNTAwMTk3LzE2/OTI2NzU0Mi1iYW5k/ZWlyYS1kZS1pdCVD/MyVBMWxpYS1uby1m/dW5kby1kby1mb2dv/LWVtYmxlbWEtZG8t/cGElQzMlQURzLWls/dXN0cmElQzMlQTcl/QzMlQTNvLXZldG9y/aWFsLmpwZz92ZXI9/Ng" alt="decoracao">
+            </div>
+        </div>
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2>Pizzas Salgadas</h2>
+        <p class="cardapio-subtitulo">Como Clássicas</p>
+        <div class="cardapio-conteudo">
+            <div class="cardapio-img">
+                <img src="https://imgs.search.brave.com/gKIlAuverqvZ53z5I2I2WREfh0Cdkqwu1qS19xKbJhM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQ4/MjQ3MTg1NC9wdC9m/b3RvL3dvb2QtZmly/ZS1waXp6YS1vdmVu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz0xLXVaYzd0bkZ6/eDVtWjFaNzZnVVh5/QmZka0h6WXNIU1BB/allYUGs5dmswPQ" alt="Pizza Salgada">
+            </div>
+            <div class="cardapio-lista">
+                <ul>
+                    <li>
+                        <strong>Margherita</strong>
+                        <p>Molho de tomates frescos, mussarela de bufala, manjerição e azeite extra virgem</p>
+                    </li>
+                    <li>
+                        <strong>Calabresa Artesanal</strong>
+                        <p>Calabresa defumada, cebola roxa caramelizada e orégano fresco</p>
+                    </li>
+                    <li>
+                        <strong>Quatro Queijos</strong>
+                        <p>Mussarela, provolone, parmesão e gorgonzola</p>
+                    </li>
+                    <li>
+                        <strong>Sertaneja</strong>
+                        <p>Carne seca desfiada, queijo coalho e pimenta biquinho</p>
+                    </li>
+                    <li>
+                        <strong>Portuguesa Premium</strong>
+                        <p>Presunto, ovos, cebola, azeitona, ervilha e mussarela</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cardapio-decoracao">
+            <img src="https://imgs.search.brave.com/pQjmzopQQsI2mfAYEYxNpe47j4PsCbE9ESpe5Iq0MOQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vNDI4NTg4/NS82ODE4L2kvNDUw/L2RlcG9zaXRwaG90/b3NfNjgxODE3Mzkt/c3RvY2stcGhvdG8t/ZmlyZS1oZWFydC5q/cGc" alt="fogo">
+        </div>
+    </section>
+
+    <!-- LOCALIZAÇÕES -->
+    <section class="localizacoes" id="localizacoes">
+        <h2>Pontos Disponíveis</h2>
+        <p class="localizacoes-subtitulo">Localizações (Ruas)</p>
+        <div class="locais-lista">
+            <ul>
+                <li>
+                    <strong>1. Freguesia do Ó (Zona Norte)</strong>
+                    <p>Endereço: Rua das Labaredas, 150</p>
+                    <p>Ambiente: Um bairro tradicional, ideal para um ponto comercial movimentado e entregas rápidas.</p>
+                </li>
+                <li>
+                    <strong>2. Vila Madalena (Zona Oeste)</strong>
+                    <p>Endereço: Rua da Brasa, 320</p>
+                    <p>Ambiente: Bairro boêmio, com público jovem e noturno.</p>
+                </li>
+                <li>
+                    <strong>3. Liberdade (Zona Sul)</strong>
+                    <p>Endereço: Rua do Forno, 78</p>
+                    <p>Ambiente: Região central com grande fluxo de pedestres.</p>
+                </li>
+                <li>
+                    <strong>4. Mooca (Zona Leste)</strong>
+                    <p>Endereço: Avenida da Pizza, 450</p>
+                    <p>Ambiente: Bairro italiano, perfeito para uma pizzaria autêntica.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <div class="contato-info">
+            <p>E-mail: contato@pizzariafogodebrasa.com.br</p>
+            <p>WhatsApp: (11) 99999-8888</p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; Pizza Fogo de Brasa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
