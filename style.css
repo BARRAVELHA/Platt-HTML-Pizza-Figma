@@ -303,37 +303,3 @@ body{
     font-size: 16px;
 }
 
-/* ========= CELULARES ========= */
-@media (max-width: 768px) {
-    .header{ padding: 20px; }
-    .logo{ font-size: 22px; }
-    .menu-toggle{ display: flex; }
-    .menu{ width: 75%; padding: 100px 30px; }
-    .menu a{ font-size: 18px; }
-    .overlay{ padding: 20px; }
-    .hero-conteudo img{ width: 200px; }
-    .hero-conteudo h2{ font-size: 32px; }
-    .hero-conteudo p{ font-size: 18px; }
-    .hero-setas{ gap: 80px; margin-top: 30px; }
-    .seta{ width: 45px; }
-    .hero-decoracao img{ width: 90px; }
-    .cardapio{ padding: 60px 20px; }
-    .cardapio h2{ font-size: 26px; }
-    .cardapio-subtitulo{ font-size: 18px; }
-    .cardapio-conteudo{ flex-direction: column; align-items: center; gap: 30px; }
-    .cardapio-img img{ width: 250px; }
-    .cardapio-lista{ max-width: 100%; }
-    .cardapio-lista li strong{ font-size: 18px; }
-    .cardapio-lista li p{ font-size: 14px; }
-    .localizacoes{ padding: 50px 20px; }
-    .localizacoes h2{ font-size: 26px; }
-    .localizacoes-subtitulo{ font-size: 17px; }
-    .local{ padding: 20px 25px; }
-    .local h3{ font-size: 16px; }
-    .local p{ font-size: 14px; }
-    .contato{ padding: 50px 20px; }
-    .contato h2{ font-size: 26px; }
-    .contato-info p{ font-size: 16px; }
-    .footer{ padding: 20px; }
-    .footer p{ font-size: 14px; }
-}
