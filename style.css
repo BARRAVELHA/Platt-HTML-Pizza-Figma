@@ -82,11 +82,6 @@ body{
     visibility: visible;
 }
 
-.hero{
-    height: 100vh;
-    background: url('./COLOQUE-AQUI-IMAGEM-FUNDO-HERO.png') center/cover no-repeat;
-    position: relative;
-}
 .overlay{
     background: rgba(0,0,0,0.2);
     height: 100vh;
