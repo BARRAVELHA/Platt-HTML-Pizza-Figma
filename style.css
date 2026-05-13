@@ -8,7 +8,7 @@
 }
 
 body{
-    background: #000;
+    background: #040404;
     color: #fff;
 }
 
@@ -17,7 +17,7 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #1C1C1C;
+    background-color: #242323;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,15 +71,11 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
     z-index: 900;
-}
-.overlay-menu.active{
-    opacity: 1;
-    visibility: visible;
 }
 
 .overlay{
@@ -98,7 +94,7 @@ body{
     align-items: center;
 }
 .hero-conteudo img{
-    width: 300px;
+    width: 400px;
     height: auto;
     object-fit: contain;
     margin-bottom: 20px;
@@ -110,36 +106,33 @@ body{
     color: #ff6a00;
 }
 .hero-conteudo p{
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 300;
     line-height: 1.4;
 }
 .hero-setas{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 1000px;
     margin-top: 40px;
 }
 .seta{
-    width: 60px;
-    height: auto;
+    width: 325px;
+    height: -950px;
     object-fit: contain;
-    transition: 0.3s;
 }
-.seta:hover{
-    transform: scale(1.1);
-}
+
 .hero-decoracao{
-    margin-top: 40px;
+    margin-top: -330px;
 }
 .hero-decoracao img{
-    width: 340px;
+    width: 360px;
     height: auto;
     object-fit: contain;
 }
 
 .cardapio{
-    background: #0d0d0d;
+    background: #000000;
     padding: 80px 80px;
     text-align: center;
 }
@@ -209,7 +202,7 @@ body{
 }
 
 .localizacoes{
-    background: #000;
+    background: #2c2c2c;
     padding: 80px 80px;
     text-align: center;
 }
@@ -254,7 +247,6 @@ body{
     line-height: 1.5;
     margin: 4px 0;
 }
-
 .contato{
     background: #cc0000;
     padding: 60px 80px;
@@ -281,7 +273,6 @@ body{
 .contato-info a:hover{
     text-decoration: underline;
 }
-
 .footer{
     background: #1C1C1C;
     color: white;
